@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="31sp"
+            android:textColor="#fff"
+            android:text="Welcome To Alumni "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:text="welcomes"/>
+    </LinearLayout>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/adminLogin"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Admin"/>
+    <Button
+        android:id="@+id/studentLogin"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/alumniLogin"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Alumni"
+        android:textAlignment="center"/>
+</LinearLayout>
+</LinearLayout>
